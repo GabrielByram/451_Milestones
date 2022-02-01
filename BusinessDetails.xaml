@@ -1,0 +1,22 @@
+﻿<Window x:Class="Milestone1.BusinessDetails"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Milestone1"
+        mc:Ignorable="d"
+        Title="BusinessDetails" Height="450" Width="800">
+    <Grid>
+        <Label Content="State" Margin="53,112,709,291"/>
+        <Label x:Name="Business_Name" Content="Business Name" Margin="53,48,648,355"/>
+        <Label Content="City" Margin="53,186,709,217"/>
+        <TextBox x:Name="bname" HorizontalAlignment="Left" Margin="212,48,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="state" HorizontalAlignment="Left" Margin="212,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="city" HorizontalAlignment="Left" Margin="212,184,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Number of businesses in the same state" Margin="53,248,510,155"/>
+        <Label Content="Number of businesses in the same city" Margin="53,320,510,83"/>
+        <Label x:Name="numInState" Content="_______" Margin="321,248,441,155"/>
+        <Label x:Name="numInCity" Content="_______" Margin="321,318,441,85"/>
+
+    </Grid>
+</Window>
